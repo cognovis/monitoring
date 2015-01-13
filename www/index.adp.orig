@@ -15,10 +15,9 @@
 <li><a href="top">#monitoring.Statistics_from_top#</a>
 <li><a href="df/">#monitoring.Statistics_from_df#</a>
 <li><a href="db/">#monitoring.Statistics_from_db#</a>
-<li><a href="backup/">#monitoring.Backup#</a>
+<li><a href="backup/">Backup</a>
 
 @dev_support_link;noquote@
 
 </ul>
-
 

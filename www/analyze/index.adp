@@ -5,14 +5,14 @@
 
  
 
-<h2>Table Analysis Module</h2>
+<h2>#monitoring.lt_Table_Analysis_Module#</h2>
 
 <br><blockquote>
-<h2>Purpose</h2>
-<p>This module automates table analysis.  The pages linked to from here are simply for management.  The work is done by a procedure in the tcl directory, ad_monitoring_analyze_tables, which automatically analyzes all the tables of a period of days specified by the parameter NumDaysToEstAllRows in the monitoring section.  NumDaysToEstAllRows defaults to 7.  The parameter AutoAnalyzeP simply turns this system on or off.  </p>
+<h2>#monitoring.Purpose#</h2>
+<p>#monitoring.lt_This_module_automates#  </p>
 <br>
 <ul>
-<li><a href=\"table-analyze-info\">Table Analysis Informaion</a>
-<li><a href=\"load-table-names\">Sync tables with those in database</a>
+<li><a href=\"table-analyze-info\">#monitoring.lt_Table_Analysis_Inform#</a>
+<li><a href=\"load-table-names\">#monitoring.lt_Sync_tables_with_thos#</a>
 </ul>
 </blockquote>

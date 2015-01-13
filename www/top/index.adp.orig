@@ -46,4 +46,3 @@
 <legend style="font-size: 14px; text-transform: uppercase; font-weight: bold;">#monitoring.process_history#</legend>
 <listtemplate name="procs"></listtemplate>
 </fieldset>
-

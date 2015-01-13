@@ -15,7 +15,7 @@ ad_page_contract {
 ad_progress_bar_begin \
     -title "Executamdo Backup de Arquivos..." \
     -message_1 "Aguarde, isto pode demorar ..." \
-    -message_2 "Ao Final voc�ser�redirecionado para a p�ina de backup."
+    -message_2 "Ao Final voc?ser?redirecionado para a p?ina de backup."
 
 #Compacta diretorio, orig e o diretorio raiz para tirar o backup
 set orig "[acs_root_dir]"

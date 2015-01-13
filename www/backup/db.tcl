@@ -15,7 +15,7 @@ ad_page_contract {
 ad_progress_bar_begin \
     -title "Executamdo Backup do Banco de Dados..." \
     -message_1 "Aguarde, isto pode demorar ..." \
-    -message_2 "Ao Final voc�ser�redirecionado para a p�ina de backup."
+    -message_2 "Ao Final voc?ser?redirecionado para a p?ina de backup."
 
 #Executa backup do banco de dados
 
