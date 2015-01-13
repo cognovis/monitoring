@@ -19,7 +19,7 @@ ad_progress_bar_begin \
 
 #Executa backup do banco de dados
 
-set dest "[acs_root_dir]/packages/monitoring/www/backup"
+set dest [im_backup_path]
     
 if [catch {
 

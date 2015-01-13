@@ -8,9 +8,16 @@ set page_title "Backup"
 
 set context [list $page_title]
 
-
-set path "[acs_root_dir]/packages/monitoring/www/backup/"
+set path [im_backup_path]
 set html ""
+
+if {![file exists $path]} {
+    append html "<font color=red>
+        Backup path doesn't exist - please correct the
+        <a href='/intranet/admin/parameters'>BackupBasePathUnix parameter</a>.
+</font>"
+}
+
 if [catch {
    set files [glob $path*.gz]
    foreach file [lsort $files] {
@@ -23,7 +30,7 @@ if [catch {
 
 
 } errmsg] {
-	append html "<p>N� h�arquivos compactados .gz</p>"
+	append html "<p>Could not find any files</p>"
 	ns_log notice "$errmsg"
 }
 
