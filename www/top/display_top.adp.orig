@@ -1,7 +1,7 @@
 <master>
 <property name="context">@context;noquote@</property>
 <property name="title">@title;noquote@</property>
-<a href="index2" class="button"> #monitoring.Back# </a>
+<a href="index2" class="button"> Voltar </a>
 <table border=0>
 <tr>
  <th align=left>
@@ -109,5 +109,4 @@ Cpu(s): @cpu_user@%us,  @cpu_kernel@%sy,  @cpu_idle@%id, @cpu_iowait@%wa, @cpu_s
 
 </multiple>
 </table>
-
 

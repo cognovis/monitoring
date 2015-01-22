@@ -15,12 +15,12 @@ ad_page_contract {
 ad_progress_bar_begin \
     -title "Executando Backup de Arquivos..." \
     -message_1 "Aguarde, isto pode demorar ..." \
-    -message_2 "Ao Final voc�ser�redirecionado para a p�ina de backup."
+    -message_2 "Ao Final voc?ser?redirecionado para a p?ina de backup."
 
 #Compacta diretorio, orig e o diretorio raiz para tirar o backup
 set orig "[acs_root_dir]"
-set dest "[acs_root_dir]/packages/monitoring/www/backup"
-    
+set dest [im_backup_path]
+
 if [catch {
 [exec nice tar -cf $dest/files.tar --exclude=*.gz --exclude=*.dmp --exclude=*.tar  $orig  ]
 } errmsg] {

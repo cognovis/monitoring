@@ -10,7 +10,7 @@
    <td>
    <h1> #monitoring.Detail#: @mounted@</h1>
    <li> #monitoring.Frequency#:@df_frequency@ #monitoring.hours# 
-   <li> #monitoring.lt_total_de_registrostot#
+   <li> total de registros:@total@ - exibidos @start@ a @end@
    <li>
    <form action="detail" method="get">
    <input type="text" name="limit" value="@limit@" size="2">
@@ -26,4 +26,3 @@
    </td>
   </tr>
 </table>
-

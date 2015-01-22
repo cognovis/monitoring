@@ -41,13 +41,13 @@ template::list::create -name top_itens \
 		 
     } -orderby {
         top_id {
-            orderby "lower(top_id)"
+            orderby "top_id"
         }
         memory_free {
-            orderby "lower(memory_free)"
+            orderby "memory_free"
         }
         cpu_idle {
-	    orderby "lower(cpu_idle)"
+	    orderby "cpu_idle"
 	}        
     }
 

@@ -2,7 +2,7 @@
 <property name="context">@context;noquote@</property>
 <property name="title">@title;noquote@</property>
 
-<a href="index" class="button"> Voltar </a>
+<a href="index" class="button"> #monitoring.Back# </a>
   
  
  <table cellpadding="3" cellspacing="3">
@@ -13,3 +13,4 @@
       </td>
     </tr>
   </table>   
+

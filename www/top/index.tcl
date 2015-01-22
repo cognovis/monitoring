@@ -51,7 +51,7 @@ template::list::create -name procs \
                            pid            { label "[_ monitoring.pid]" }
  			   timestamp      { label "[_ monitoring.timestamp]" }
  			   action         { label "[_ monitoring.action]" 
-						display_template { <a href="one-pid?pid=@procs.pid@&command=@procs.command@"> histÃ³rico</a> } 
+						display_template { <a href="one-pid?pid=@procs.pid@&command=@procs.command@"> histórico</a> } 
 					  }
 			}
 			

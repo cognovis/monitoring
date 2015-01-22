@@ -2,25 +2,26 @@
   <property name="title">@page_title;noquote@</property>
   <property name="context">@context;noquote@</property>
 
-<h2>System Backup</h2>
+<h2>#monitoring.System_Backup#</h2>
 
 <p>
-  <b>&raquo;</b> <a href="files">File system backup</a>
+  <b>&raquo;</b> <a href="files">#monitoring.File_system_backup#</a>
 </p>
 
 <p>
-  <b>&raquo;</b> <a href="aplicacao">Aplication Backup</a>
+  <b>&raquo;</b> <a href="aplicacao">#monitoring.Aplication_Backup#</a>
 </p>
 
 
 <p>
-  <b>&raquo;</b> <a href="db">Data base backup</a>
+  <b>&raquo;</b> <a href="db">#monitoring.Data_base_backup#</a>
 </p>
 
-<h2>Backup Files</h2>
+<h2>#monitoring.Backup_Files#</h2>
 <table border=1>
 @html;noquote@
 </table>
+
 
 
 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="monitoring" locale="de_DE" charset="ISO-8859-1">
+
+  <msg key="Back">Zurück</msg>
+</message_catalog>

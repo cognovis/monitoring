@@ -4,7 +4,7 @@
 
 
   
-<a href="index" class="button"> #monitoring.Back# </a> 
+<a href="index" class="button"> Voltar </a> 
  <table cellpadding="3" cellspacing="3">
     <tr>
       
@@ -13,4 +13,3 @@
       </td>
     </tr>
   </table>   
-

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<message_catalog package_key="monitoring" package_version="4.2.1" locale="en_US" charset="ISO-8859-1">
+<message_catalog package_key="monitoring" locale="en_US" charset="ISO-8859-1">
 
   <msg key="action">action</msg>
   <msg key="All_Events">All Events</msg>
+  <msg key="Aplication_Backup">Aplication Backup</msg>
   <msg key="Args">Args</msg>
   <msg key="avail">avail</msg>
+  <msg key="Back">Voltar</msg>
+  <msg key="Backup">Backup</msg>
+  <msg key="Backup_Files">Backup Files</msg>
   <msg key="bytes">bytes</msg>
   <msg key="Cassandracle">Cassandracle</msg>
   <msg key="Change_the_database_version_in_parameters_of_monitoring">Change the database version in parameters of monitoring</msg>
@@ -20,6 +24,7 @@
   <msg key="cpu_user">cpu user</msg>
   <msg key="Crit">Crit</msg>
   <msg key="Current_page_requests">Current page requests</msg>
+  <msg key="Data_base_backup">Data base backup</msg>
   <msg key="DB">DB</msg>
   <msg key="db_id">db id</msg>
   <msg key="db_size">db size</msg>
@@ -36,6 +41,7 @@
   <msg key="Error_log_WatchDog">Error log WatchDog</msg>
   <msg key="Errors_from_the_last">Errors from the last</msg>
   <msg key="Errors_Only">Errors Only</msg>
+  <msg key="File_system_backup">File system backup</msg>
   <msg key="filesystem">filesystem</msg>
   <msg key="Filters">Filters</msg>
   <msg key="filters_matching_path">filters matching path</msg>
@@ -54,13 +60,19 @@
   <msg key="load_avg_5">load_avg_5</msg>
   <msg key="load_avg_15">load avg 15</msg>
   <msg key="lt_Current_page_requests">Current page requests</msg>
+  <msg key="lt_monitoringRegisters_t">#monitoring.Registers_total#:%total% - exibidos %start% a %end%</msg>
   <msg key="lt_Registered_Procedures">Registered Procedures</msg>
+  <msg key="lt_Sync_tables_with_thos">Sync tables with those in database</msg>
+  <msg key="lt_Table_Analysis_Inform">Table Analysis Informaion</msg>
+  <msg key="lt_Table_Analysis_Module">Table Analysis Module</msg>
   <msg key="lt_there_are_a_total_of">There are a total of %n_connections% requests being served
 right now (to %distinct% distinct IP addresses).  Note that this number
 seems to include only the larger requests.  Smaller requests, e.g.,
 for .html files and in-line images, seem to come and go too fast for
 this program to catch.</msg>
+  <msg key="lt_This_module_automates">This module automates table analysis.  The pages linked to from here are simply for management.  The work is done by a procedure in the tcl directory, ad_monitoring_analyze_tables, which automatically analyzes all the tables of a period of days specified by the parameter NumDaysToEstAllRows in the monitoring section.  NumDaysToEstAllRows defaults to 7.  The parameter AutoAnalyzeP simply turns this system on or off.</msg>
   <msg key="lt_To_get_email_when_err">To get email when errors are logged, set</msg>
+  <msg key="lt_total_de_registrostot">total de registros:%total% - exibidos %start% a %end%</msg>
   <msg key="memory_free">Memory free</msg>
   <msg key="memory_real">memory real</msg>
   <msg key="memory_swap_free">swap free</msg>
@@ -93,6 +105,8 @@ this program to catch.</msg>
   <msg key="procs_stopped">procs stopped</msg>
   <msg key="procs_total">procs total</msg>
   <msg key="procs_zombie">procs zombie</msg>
+  <msg key="Purpose">Purpose</msg>
+  <msg key="Register">Registros</msg>
   <msg key="Registers_total">Registers total</msg>
   <msg key="Run">Run</msg>
   <msg key="Run_Now">Run Now</msg>
@@ -117,6 +131,7 @@ this program to catch.</msg>
   <msg key="Statistics_from_df">Statistics from df</msg>
   <msg key="Statistics_from_top">Statistics from top</msg>
   <msg key="Swap_used">Swap used</msg>
+  <msg key="System_Backup">System Backup</msg>
   <msg key="System_Configuration">System Configuration</msg>
   <msg key="system_history">system history</msg>
   <msg key="system_memory_free">System Memory Free</msg>
