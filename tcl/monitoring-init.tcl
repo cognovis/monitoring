@@ -33,6 +33,12 @@ if { $db_frequency > 0 } {
     ad_schedule_proc $db_frequency_in_hour ad_monitor_db_pgsql
 }
 
+set logroll_frequency [ad_parameter -package_id [monitoring_pkg_id] LogRollFrequency monitoring 0]
+
+if { $logroll_frequency > 0 } {
+    set logroll_frequency_in_days [expr 86400 * $db_frequency]
+    ad_schedule_proc $logroll_frequency_in_days ns_logroll
+}
 
 
 
