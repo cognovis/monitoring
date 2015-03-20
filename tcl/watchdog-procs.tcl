@@ -115,7 +115,7 @@ ad_proc wd_email_notify_list { subject message } {
 } {
     set system_owner [ad_system_owner]
     foreach person [wd_people_to_notify] {
-        ns_sendmail $person $system_owner $subject $message
+        acs_mail_lite::send -to_addr $person -from_addr $system_owner -subject $subject -body $message
     }
 }
 
